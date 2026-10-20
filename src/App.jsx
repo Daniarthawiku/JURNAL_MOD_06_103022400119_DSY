@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './index.css'
+import Panel from "./components/Panel";
 
 function KantinCard() {
   const namaKantin = "Daniartha Wikus Nugroho";
@@ -10,7 +11,6 @@ function KantinCard() {
 
   const N = 19;
 
-  
   return (
     <>
 
@@ -32,6 +32,7 @@ function KantinCard() {
           <button type="button" disabled>Bayar</button>
         </div>
 
+        <Panel></Panel>
     </>
   );
 }
